@@ -7,7 +7,7 @@ class Solution {
         int y=n*m;
         ArrayList<Integer>ans=new ArrayList<>();
         for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
+            for(int j=0;j<m;j++){
                 ans.add(nums1[i]^nums2[j]);
 
             }
